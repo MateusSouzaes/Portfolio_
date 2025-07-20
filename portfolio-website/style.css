@@ -1,0 +1,193 @@
+/* Estilos Gerais do Corpo e Fonte */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 960px;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+/* Estilos do Cabeçalho */
+header {
+    background: #0056b3; /* Um azul profissional */
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header .tagline {
+    font-size: 1.2em;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+/* Estilos da Navegação */
+nav ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Permite que os itens de navegação quebrem em telas menores */
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    padding: 5px 0;
+    display: block;
+}
+
+nav a:hover {
+    color: #e0e0e0;
+}
+
+.button-link {
+    background-color: #28a745; /* Botão verde */
+    color: white !important; /* !important para sobrescrever a cor do link da navegação */
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.button-link:hover {
+    background-color: #218838;
+}
+
+/* Seções Principais do Conteúdo */
+main {
+    padding: 20px 0;
+}
+
+.section-card {
+    background: #fff;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.section-card h2 {
+    color: #0056b3;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Detalhes Específicos da Seção de Experiência */
+.job-entry {
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed #eee;
+}
+
+.job-entry:last-child {
+    border-bottom: none;
+}
+
+.job-entry h3 {
+    margin-top: 0;
+    color: #333;
+    font-size: 1.5em;
+}
+
+.job-duration, .education-duration {
+    font-style: italic;
+    color: #666;
+    margin-bottom: 10px;
+    display: block; /* Garante que ocupe sua própria linha */
+}
+
+.job-entry ul {
+    list-style: disc;
+    margin-left: 20px;
+    padding-left: 0;
+}
+
+.job-entry ul li {
+    margin-bottom: 8px;
+}
+
+/* Detalhes Específicos da Seção de Educação */
+.education-entry {
+    margin-bottom: 15px;
+}
+.education-entry h3 {
+    margin-bottom: 5px;
+}
+
+/* Detalhes Específicos da Seção de Habilidades */
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Espaçamento entre as tags de habilidade */
+}
+
+.skill-tag {
+    background-color: #007bff; /* Tag de habilidade azul */
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 0.9em;
+    white-space: nowrap; /* Impede que o texto quebre dentro da tag */
+}
+
+/* Detalhes Específicos da Seção de Contato */
+#contact p {
+    margin-bottom: 10px;
+}
+
+#contact a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos do Rodapé */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 30px;
+}
+
+/* Design Responsivo */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+}
