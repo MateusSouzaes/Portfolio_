@@ -170,11 +170,14 @@ document.addEventListener('DOMContentLoaded', () => {
         if (years > 0) {
             durationText += `${years} ano${years > 1 ? 's' : ''}`;
         }
-                if (months > 0) {
-                    durationText += `${years > 0 ? ' e ' : ''}${months} mês${months > 1 ? 'es' : ''}`;
-                }
-                // Atualiza o texto da duração no HTML
-                currentJobDuration.textContent = `${startDateStr} - Atual (${durationText})`;
-            }
-        });
-        
+        if (months > 0) {
+            durationText += `${years > 0 ? ' e ' : ''}${months} mês${months > 1 ? 'es' : ''}`;
+        }
+
+        if (durationText) {
+            // Atualiza o texto no HTML
+            currentJobDuration.textContent = `${startDateStr} - Atual (${durationText})`;
+        }
+    }
+
+});

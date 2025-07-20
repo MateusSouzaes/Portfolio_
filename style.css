@@ -29,7 +29,24 @@ header {
     padding: 1rem 0; /* Espaçamento interno. */
     text-align: center; /* Centraliza o texto. */
     box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra suave para dar profundidade. */
+    position: relative; /* Necessário para posicionar a imagem de perfil */
 }
+
+/* Estilos da Imagem de Perfil */
+.profile-pic {
+    width: 150px; /* Tamanho da imagem */
+    height: 150px; /* Tamanho da imagem */
+    border-radius: 50%; /* Torna a imagem redonda */
+    object-fit: cover; /* Garante que a imagem preencha o círculo sem distorcer */
+    border: 4px solid #fff; /* Borda branca ao redor da imagem */
+    margin-bottom: 20px; /* Espaçamento abaixo da imagem */
+    display: block; /* Garante que ela ocupe sua própria linha */
+    margin-left: auto; /* Centraliza a imagem horizontalmente */
+    margin-right: auto; /* Centraliza a imagem horizontalmente */
+    /* Adicionando a sombra conforme solicitado: top-left */
+    box-shadow: -8px -8px 15px rgba(0, 0, 0, 0.3); /* Sombra para o canto superior esquerdo */
+}
+
 
 header h1 {
     margin: 0; /* Remove margem padrão. */
