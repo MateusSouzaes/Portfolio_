@@ -1,193 +1,228 @@
-/* Estilos Gerais do Corpo e Fonte */
+/*
+Este arquivo CSS é responsável por toda a parte visual do meu portfólio.
+Eu o organizei em seções para facilitar a navegação e manutenção.
+*/
+
+/* Estilos Gerais do Corpo e Fonte: Definem a base para todo o site. */
 body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    font-family: 'Arial', sans-serif; /* Fonte padrão, simples e legível. */
+    line-height: 1.6; /* Espaçamento entre linhas para melhor leitura. */
+    margin: 0; /* Remove margens padrão do navegador. */
+    padding: 0; /* Remove preenchimento padrão do navegador. */
+    background-color: #f4f4f4; /* Cor de fundo suave para o corpo. */
+    color: #333; /* Cor de texto principal, um cinza escuro. */
 }
 
+/* Container: Usado para centralizar o conteúdo e limitar a largura. */
 .container {
-    width: 90%;
-    max-width: 960px;
-    margin: auto;
-    overflow: hidden;
-    padding: 20px 0;
+    width: 90%; /* Ocupa 90% da largura disponível. */
+    max-width: 960px; /* Mas não mais que 960px, para não ficar muito largo em telas grandes. */
+    margin: auto; /* Centraliza o container na página. */
+    overflow: hidden; /* Garante que elementos flutuantes dentro não causem problemas. */
+    padding: 20px 0; /* Espaçamento interno superior e inferior. */
 }
 
-/* Estilos do Cabeçalho */
+/* Estilos do Cabeçalho: A parte superior do site, com meu nome e subtítulo. */
 header {
-    background: #0056b3; /* Um azul profissional */
-    color: #fff;
-    padding: 1rem 0;
-    text-align: center;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    background: #0056b3; /* Um azul profissional para o cabeçalho. */
+    color: #fff; /* Texto branco no cabeçalho. */
+    padding: 1rem 0; /* Espaçamento interno. */
+    text-align: center; /* Centraliza o texto. */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra suave para dar profundidade. */
 }
 
 header h1 {
-    margin: 0;
-    font-size: 2.5em;
+    margin: 0; /* Remove margem padrão. */
+    font-size: 2.5em; /* Tamanho grande para o nome. */
 }
 
 header .tagline {
-    font-size: 1.2em;
-    margin-top: 5px;
-    margin-bottom: 20px;
+    font-size: 1.2em; /* Tamanho do subtítulo. */
+    margin-top: 5px; /* Margem superior. */
+    margin-bottom: 20px; /* Margem inferior. */
 }
 
-/* Estilos da Navegação */
+/* Estilos da Navegação: O menu de links. */
 nav ul {
-    padding: 0;
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap; /* Permite que os itens de navegação quebrem em telas menores */
+    padding: 0; /* Remove preenchimento padrão da lista. */
+    list-style: none; /* Remove marcadores da lista. */
+    display: flex; /* Usa Flexbox para organizar os itens. */
+    justify-content: center; /* Centraliza os itens horizontalmente. */
+    flex-wrap: wrap; /* Permite que os itens de navegação quebrem em telas menores. */
 }
 
 nav ul li {
-    margin: 0 15px;
+    margin: 0 15px; /* Espaçamento entre os itens do menu. */
 }
 
 nav a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s ease;
-    padding: 5px 0;
-    display: block;
+    color: #fff; /* Cor do link branco. */
+    text-decoration: none; /* Remove sublinhado. */
+    font-weight: bold; /* Texto em negrito. */
+    transition: color 0.3s ease; /* Transição suave de cor ao passar o mouse. */
+    padding: 5px 0; /* Espaçamento interno. */
+    display: block; /* Ocupa todo o espaço disponível do item. */
 }
 
 nav a:hover {
-    color: #e0e0e0;
+    color: #e0e0e0; /* Cor mais clara ao passar o mouse. */
 }
 
+/* Estilo para o botão de download do currículo. */
 .button-link {
-    background-color: #28a745; /* Botão verde */
-    color: white !important; /* !important para sobrescrever a cor do link da navegação */
-    padding: 8px 15px;
-    border-radius: 5px;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
+    background-color: #28a745; /* Um verde chamativo para o botão. */
+    color: white !important; /* Texto branco, com !important para garantir a sobreposição. */
+    padding: 8px 15px; /* Preenchimento interno do botão. */
+    border-radius: 5px; /* Cantos arredondados. */
+    text-decoration: none; /* Remove sublinhado. */
+    transition: background-color 0.3s ease; /* Transição suave de cor ao passar o mouse. */
 }
 
 .button-link:hover {
-    background-color: #218838;
+    background-color: #218838; /* Verde mais escuro ao passar o mouse. */
 }
 
-/* Seções Principais do Conteúdo */
+/* Seções Principais do Conteúdo: Estilo para as caixas de conteúdo. */
 main {
-    padding: 20px 0;
+    padding: 20px 0; /* Espaçamento interno superior e inferior. */
 }
 
 .section-card {
-    background: #fff;
-    padding: 30px;
-    margin-bottom: 30px;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    background: #fff; /* Fundo branco para as seções. */
+    padding: 30px; /* Preenchimento interno. */
+    margin-bottom: 30px; /* Margem inferior para separar as seções. */
+    border-radius: 8px; /* Cantos arredondados. */
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05); /* Sombra suave para flutuar o conteúdo. */
+    opacity: 0; /* Inicialmente invisível para a animação JS. */
+    transform: translateY(20px); /* Inicialmente um pouco abaixo para a animação JS. */
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out; /* Transição suave para a animação de entrada. */
+}
+
+/* Classe adicionada por JavaScript para mostrar as seções com animação. */
+.section-card.visible {
+    opacity: 1; /* Torna-se visível. */
+    transform: translateY(0); /* Volta à posição original. */
 }
 
 .section-card h2 {
-    color: #0056b3;
-    border-bottom: 2px solid #eee;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
+    color: #0056b3; /* Cor azul para os títulos das seções. */
+    border-bottom: 2px solid #eee; /* Linha inferior para separar o título. */
+    padding-bottom: 10px; /* Espaçamento abaixo da linha. */
+    margin-bottom: 20px; /* Margem inferior. */
 }
 
-/* Detalhes Específicos da Seção de Experiência */
+/* Detalhes Específicos da Seção de Experiência: Estilos para cada entrada de trabalho. */
 .job-entry {
-    margin-bottom: 25px;
-    padding-bottom: 15px;
-    border-bottom: 1px dashed #eee;
+    margin-bottom: 25px; /* Margem inferior entre as entradas de trabalho. */
+    padding-bottom: 15px; /* Preenchimento inferior. */
+    border-bottom: 1px dashed #eee; /* Linha tracejada para separar as entradas. */
 }
 
 .job-entry:last-child {
-    border-bottom: none;
+    border-bottom: none; /* Remove a linha da última entrada. */
 }
 
 .job-entry h3 {
-    margin-top: 0;
-    color: #333;
-    font-size: 1.5em;
+    margin-top: 0; /* Remove margem superior padrão. */
+    color: #333; /* Cor de texto para o título do cargo. */
+    font-size: 1.5em; /* Tamanho da fonte. */
 }
 
 .job-duration, .education-duration {
-    font-style: italic;
-    color: #666;
-    margin-bottom: 10px;
-    display: block; /* Garante que ocupe sua própria linha */
+    font-style: italic; /* Texto em itálico para a duração. */
+    color: #666; /* Cor cinza para a duração. */
+    margin-bottom: 10px; /* Margem inferior. */
+    display: block; /* Garante que ocupe sua própria linha. */
 }
 
 .job-entry ul {
-    list-style: disc;
-    margin-left: 20px;
-    padding-left: 0;
+    list-style: disc; /* Marcadores de disco para a lista. */
+    margin-left: 20px; /* Margem esquerda para o recuo. */
+    padding-left: 0; /* Remove preenchimento padrão. */
 }
 
 .job-entry ul li {
-    margin-bottom: 8px;
+    margin-bottom: 8px; /* Margem inferior entre os itens da lista. */
 }
 
-/* Detalhes Específicos da Seção de Educação */
+/* Detalhes Específicos da Seção de Educação: Estilos para cada entrada de educação. */
 .education-entry {
-    margin-bottom: 15px;
+    margin-bottom: 15px; /* Margem inferior entre as entradas de educação. */
 }
 .education-entry h3 {
-    margin-bottom: 5px;
+    margin-bottom: 5px; /* Margem inferior. */
 }
 
-/* Detalhes Específicos da Seção de Habilidades */
+/* Detalhes Específicos da Seção de Habilidades: Estilos para as "tags" de habilidade. */
 .skills-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px; /* Espaçamento entre as tags de habilidade */
+    display: flex; /* Usa Flexbox para organizar as tags. */
+    flex-wrap: wrap; /* Permite que as tags quebrem para a próxima linha. */
+    gap: 10px; /* Espaçamento entre as tags de habilidade. */
 }
 
 .skill-tag {
-    background-color: #007bff; /* Tag de habilidade azul */
-    color: white;
-    padding: 8px 15px;
-    border-radius: 20px;
-    font-size: 0.9em;
-    white-space: nowrap; /* Impede que o texto quebre dentro da tag */
+    background-color: #007bff; /* Fundo azul para as tags. */
+    color: white; /* Texto branco. */
+    padding: 8px 15px; /* Preenchimento interno. */
+    border-radius: 20px; /* Cantos bem arredondados para parecer uma "pílula". */
+    font-size: 0.9em; /* Tamanho da fonte. */
+    white-space: nowrap; /* Impede que o texto quebre dentro da tag. */
+    cursor: pointer; /* Indica que é clicável (ou interativo, para o JS). */
+    /* Transição para os efeitos de hover e scale do JavaScript */
+    transition: all 0.2s ease-in-out;
 }
 
-/* Detalhes Específicos da Seção de Contato */
+/* Estilos para o botão "Voltar ao Topo" (criado e manipulado principalmente pelo JS) */
+#backToTopBtn {
+    /* O JS define a maioria dos estilos, mas posso ter um fallback ou ajustes aqui */
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 1.2em;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    z-index: 1000;
+    transition: opacity 0.3s ease, background-color 0.3s ease;
+}
+
+#backToTopBtn:hover {
+    background-color: #0056b3; /* Escurece no hover. */
+}
+
+
+/* Detalhes Específicos da Seção de Contato: Estilos para as informações de contato. */
 #contact p {
-    margin-bottom: 10px;
+    margin-bottom: 10px; /* Margem inferior entre os itens de contato. */
 }
 
 #contact a {
-    color: #0056b3;
-    text-decoration: none;
+    color: #0056b3; /* Cor azul para os links de contato. */
+    text-decoration: none; /* Remove sublinhado. */
 }
 
 #contact a:hover {
-    text-decoration: underline;
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse. */
 }
 
-/* Estilos do Rodapé */
+/* Rodapé: A parte inferior do site. */
 footer {
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1rem 0;
-    margin-top: 30px;
+    background: #333; /* Fundo cinza escuro. */
+    color: #fff; /* Texto branco. */
+    text-align: center; /* Centraliza o texto. */
+    padding: 1rem 0; /* Espaçamento interno. */
+    margin-top: 30px; /* Margem superior para separar do conteúdo. */
 }
 
-/* Design Responsivo */
+/* Design Responsivo: Ajustes para telas menores (smartphones, tablets). */
 @media (max-width: 768px) {
     header h1 {
-        font-size: 2em;
+        font-size: 2em; /* Diminui o tamanho do nome em telas menores. */
     }
 
     nav ul {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    nav ul li {
-        margin: 5px 0;
-    }
-}
+        flex-
