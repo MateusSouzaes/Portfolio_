@@ -225,4 +225,11 @@ footer {
     }
 
     nav ul {
-        flex-
+        flex-direction: column; /* Coloca os itens do menu em coluna. */
+        align-items: center; /* Centraliza os itens na coluna. */
+    }
+
+    nav ul li {
+        margin: 5px 0; /* Ajusta a margem entre os itens do menu na coluna. */
+    }
+}

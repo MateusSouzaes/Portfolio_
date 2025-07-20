@@ -4,6 +4,13 @@ Bem-vindo ao meu portfólio digital! Este repositório é mais do que um curríc
 
 ---
 
+## Acesse Meu Portfólio Online!
+
+**Visite meu portfólio diretamente aqui:**
+➡️ [**https://mateussouzaes.github.io/Portfolio_/**](https://mateussouzaes.github.io/Portfolio_/) ⬅️
+
+---
+
 ## Sobre Mim: De Analista de Compras a Especialista em Dados
 
 Sou Mateus Souza e Silva, um profissional com sólida trajetória em áreas como gestão financeira, operações e compras, em transição estratégica para o campo da Análise de Dados. Minha experiência anterior me dotou de uma visão apurada para o uso prático de dados no suporte à gestão e tomada de decisões.
@@ -18,22 +25,21 @@ Atualmente, estou aprimorando minhas competências em Análise e Desenvolvimento
 
 Minha abordagem em Análise de Dados é moldada pela experiência prática e um foco inegável em resultados. Aqui estão os pilares que me destacam:
 
-* **Especialista em Decisões Orientadas a Dados:** Não apenas extraio dados, eu os transformo em inteligência. Minha experiência em precificação e gestão de portfólio, por exemplo, demonstrou a capacidade de maximizar margens e rentabilidade através de análises de custo e mercado.
-* **Catalisador de Eficiência e Automação:** Sou proficiente em otimizar operações. Automatizei relatórios de compras e estoque no Excel, reduzindo significativamente o tempo de análise e gerando insights mais rápidos. Minha expertise se estende à estruturação de dados operacionais e modelagem de processos para padronização e redução de inconsistências.
-* **Visão de Negócio Abrangente:** Minha bagagem em finanças (controle de faturamento, cobrança, gestão de recebíveis) e administração (logística, frota, controle de custos) me permite compreender o impacto total das análises de dados em diferentes áreas da empresa, garantindo soluções mais integradas e eficazes.
+* **Especialista em Decisões Orientadas a Dados:** Não apenas extraio dados, eu os transformo em inteligência. Minha experiência em precificação e gestão de portfólio, por exemplo, demonstrou a capacidade de maximizar margens e rentabilidade através de análises detalhadas de custo e mercado.
+* **Catalisador de Eficiência e Automação:** Sou proficiente em otimizar operações. Automatizei relatórios de compras e estoque no Excel, reduzindo significativamente o tempo de análise e gerando insights mais rápidos. Minha expertise se estende à estruturação de dados operacionais de logística e frota, criando controles internos para otimizar a eficiência.
+* **Visão de Negócio Abrangente:** Minha bagagem em finanças (controle de faturamento e cobrança, gestão de recebíveis) e administração (modelagem de processos administrativos, suporte à consolidação de dados financeiros) me permite compreender o impacto total das análises de dados em diferentes áreas da empresa, garantindo soluções mais integradas e eficazes.
 * **Aprendizado e Adaptação Contínuos:** Estou em constante evolução, investindo no aprendizado de novas tecnologias e metodologias em Análise e Desenvolvimento de Sistemas (SQL, Python, C#, Java). Isso garante que minhas soluções estejam sempre alinhadas com as melhores práticas e inovações do mercado.
 
 ---
 
 ## Estrutura do Repositório
 
-Este portfólio é organizado da seguinte forma:
+Este portfólio é organizado da seguinte forma na **raiz** do repositório:
 
-* **`portfolio-website/`**: Contém o código-fonte do meu currículo online interativo, uma representação visual das minhas qualificações.
-    * `index.html`: A espinha dorsal da experiência web.
-    * `style.css`: Responsável pelo design e apelo visual.
-    * `script.js`: Adiciona interatividade e dinamismo.
-    * `assets/`: Repositório para o currículo em PDF e outros recursos multimídia.
+* **`index.html`**: O arquivo principal do meu currículo online interativo, a espinha dorsal da experiência web.
+* **`style.css`**: Responsável pelo design e apelo visual do site.
+* **`script.js`**: Adiciona interatividade e dinamismo à página.
+* **`assets/`**: Uma pasta para recursos de suporte, incluindo meu currículo em PDF e outras mídias.
 
 * **`Curriculum - Mateus Souza e Silva.pdf`**: Meu currículo detalhado em PDF, para download e consulta rápida.
 
